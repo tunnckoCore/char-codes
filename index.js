@@ -9,10 +9,10 @@
 
 var forIn = require('for-in')
 var reduce = require('object.reduce')
-var micromatch = require('micromatch')
+var matcher = require('is-match')
 var charCodeNames = require('char-code-names')
 
-module.exports = function charCodes (filter) {
+module.exports = function charCodes (filter, opts) {
   var res = {}
   var codeNames = charCodeNames()
   forIn(codeNames, function _forIn (names, key) {
@@ -26,7 +26,7 @@ module.exports = function charCodes (filter) {
     return res
   }
 
-  var isMatch = micromatch.matcher(filter)
+  var isMatch = matcher(filter, opts)
   return reduce(res, function (acc, val, key) {
     if (isMatch(val.code.toString()) || isMatch(val.char) || isMatch(key)) {
       acc[key] = val

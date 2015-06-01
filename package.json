@@ -12,7 +12,7 @@
   "dependencies": {
     "char-code-names": "^1.0.2",
     "for-in": "^0.1.4",
-    "micromatch": "^2.1.6",
+    "is-match": "^0.2.0",
     "object.reduce": "^0.1.7"
   },
   "devDependencies": {
