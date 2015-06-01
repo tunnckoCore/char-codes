@@ -19,5 +19,15 @@
     "assertit": "^0.1.0",
     "kind-of": "^2.0.0"
   },
-  "keywords": []
+  "keywords": [
+    "belt",
+    "char",
+    "character",
+    "code",
+    "codes",
+    "helpers",
+    "name",
+    "utility",
+    "utils"
+  ]
 }
