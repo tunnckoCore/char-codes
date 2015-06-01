@@ -62,6 +62,18 @@ charCodes()
 ```
 
 
+## Related
+- [char-code-names](https://github.com/tunnckoCore/char-code-names): Common used char codes and their common used names as json object
+- [hex-color-regex](https://github.com/regexps/hex-color-regex): The best regular expression (regex) for matching hex color values from string.
+- [is-hexcolor](https://github.com/tunnckocore/is-hexcolor): Check that given value is valid hex color, using `hex-color-regex` - the best regex for matching hex color values
+- [is-ansi](https://github.com/tunnckocore/is-ansi): Check that given string contain ANSI color codes, without CLI
+- [is-match](https://github.com/jonschlinkert/is-match): Create a matching function from a glob pattern, regex, string, array or function.
+- [is-missing](https://github.com/tunnckoCore/is-missing): Check that given `name` or `user/repo` exists in npm registry or in github as user repository.
+- [is-installed](https://github.com/tunnckoCore/is-installed): Checks that given package is installed on the system - globally or locally.
+- [is-empty-function](https://github.com/tunnckoCore/is-empty-function): Checks the given function (or fn.toString()) is with empty body - dont have body.
+- [is-kindof](https://github.com/tunnckoCore/is-kindof): Thin wrapper around `kind-of` and in bonus functional api.
+
+
 ## Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/char-codes/issues/new).  
