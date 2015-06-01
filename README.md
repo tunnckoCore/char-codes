@@ -17,6 +17,48 @@ npm test
 
 ```js
 var charCodes = require('char-codes')
+
+charCodes('*quote')
+//=> { doublequote: { code: 34, char: '"' },
+// 'double-quote': { code: 34, char: '"' },
+// 'double quote': { code: 34, char: '"' },
+// singlequote: { code: 39, char: '\'' },
+// 'single-quote': { code: 39, char: '\'' },
+// 'single quote': { code: 39, char: '\'' }
+// }
+
+charCodes('34')
+//=> { doublequote: { code: 34, char: '"' },
+// 'double-quote': { code: 34, char: '"' },
+// 'double quote': { code: 34, char: '"' },
+// }
+
+charCodes()
+//=> { space: { code: 32, char: ' ' },
+// negate: { code: 33, char: '!' },
+// exclam: { code: 33, char: '!' },
+// exclamation: { code: 33, char: '!' },
+// 'exclamation mark': { code: 33, char: '!' },
+// 'exclam mark': { code: 33, char: '!' },
+// double: { code: 34, char: '"' },
+// doublequote: { code: 34, char: '"' },
+// 'double-quote': { code: 34, char: '"' },
+// 'double quote': { code: 34, char: '"' },
+// hash: { code: 35, char: '#' },
+// number: { code: 35, char: '#' },
+// 'hash sign': { code: 35, char: '#' },
+// 'number sign': { code: 35, char: '#' },
+// dollar: { code: 36, char: '$' },
+// 'dollar sign': { code: 36, char: '$' },
+// percent: { code: 37, char: '%' },
+// percentage: { code: 37, char: '%' },
+// ampersand: { code: 38, char: '&' },
+// single: { code: 39, char: '\'' },
+// singlequote: { code: 39, char: '\'' },
+// 'single-quote': { code: 39, char: '\'' },
+// 'single quote': { code: 39, char: '\'' },
+// 'left-parenthesis': { code: 40, char: '(' },
+// ...
 ```
 
 
